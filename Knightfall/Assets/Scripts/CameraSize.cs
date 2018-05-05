@@ -6,7 +6,7 @@ public class CameraSize : MonoBehaviour {
 
 	public static float pixelsToUnits = 1f;
 	public static float scale = 1f;
-	public Vector2 nativeResolution = new Vector2(240, 160);
+	public Vector2 nativeResolution = new Vector2(360, 240);
 
 	// Use this for initialization
 	void Awake () {
