@@ -5,14 +5,14 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour {
 
     public GameObject target;
-    public float scale = 4f;
+    public float scale = 3f;
 
     private Transform t;
 
     void Awake()
     {
         var cam = GetComponent<Camera>();
-        cam.orthographicSize = (Screen.height) / scale;
+        cam.orthographicSize = (Screen.height / 2) / scale;
 
     }
 

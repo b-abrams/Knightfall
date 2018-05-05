@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	public float moveSpeed = 300f;						//Movement Speed of the Player
-	public float jumpSpeed = 1900f; 					// Jump Speed of the Player
-	public float airSpeedMultiplier = .3f; 				//Slows down player while in air
+	public float moveSpeed = 1800f;						//Movement Speed of the Player
+	public float jumpSpeed = 2400f; 					// Jump Speed of the Player
+	public float airSpeedMultiplier = .2f; 				//Slows down player while in air
 	public bool grounded; 								//Determine wether the player is on the ground or in the air
-	public Vector2 maxVelocity = new Vector2(30, 50); 	// Maximum velocity of Player
+	public Vector2 maxVelocity = new Vector2(200, 250); 	// Maximum velocity of Player
+	private float maxJumpHeight = 100f;
+	private float yInit = 0f;
+	private bool maxHeightReached = false;
 	private Rigidbody2D rbody; 							// Reference to RigidBody for player physics
 	private Animator animator; 							// Reference to animatior for player animation timings
 	private PlayerController controller; 				//Reference to player controller class
@@ -35,6 +38,11 @@ public class Player : MonoBehaviour {
 		else {
 			grounded = false;
 		}
+
+		if (grounded) {
+			yInit = rbody.position.y;
+			maxHeightReached = false;
+		}
 			
 		if (Input.GetKey ("d")) {
 			if(absVelX <= maxVelocity.x)
@@ -47,12 +55,17 @@ public class Player : MonoBehaviour {
 				transform.localScale = new Vector3 (-1.0f, 1.0f, 1.0f);
 		}
 
-		if (Input.GetKey("space")) {
-			if(absVelY < maxVelocity.y)
+		if (Input.GetKey("space") && grounded) {
+			if (absVelY < maxVelocity.y && !maxHeightReached)
 				forceY = jumpSpeed;
-
 		}
-
+		if (Input.GetKey("space") && !grounded) {
+			if (absVelY < maxVelocity.y && !maxHeightReached)
+				forceY = jumpSpeed;
+			if (!maxHeightReached && rbody.position.y - yInit >= maxJumpHeight)
+				maxHeightReached = true;
+		}
+			
 		if (Input.GetKey ("j")) {
 			animator.SetBool ("Slashing", true);
 
