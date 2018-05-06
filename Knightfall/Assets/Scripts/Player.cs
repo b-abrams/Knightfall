@@ -47,12 +47,12 @@ public class Player : MonoBehaviour {
 		if (Input.GetKey ("d")) {
 			if(absVelX <= maxVelocity.x)
 				forceX = grounded ? moveSpeed : (moveSpeed * airSpeedMultiplier);
-				transform.localScale = new Vector3 (1.0f, 1.0f, 1.0f);
+				transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
 		}
 		if(Input.GetKey ("a")){
 			if(absVelX <= maxVelocity.x)
 				forceX = grounded ? -moveSpeed : (-moveSpeed * airSpeedMultiplier);
-				transform.localScale = new Vector3 (-1.0f, 1.0f, 1.0f);
+				transform.localScale = new Vector3 (-2.0f, 2.0f, 2.0f);
 		}
 
 		if (Input.GetKey("space") && grounded) {
@@ -90,7 +90,7 @@ public class Player : MonoBehaviour {
 
 				forceX = grounded ? moveSpeed * controller.moving.x : (moveSpeed * controller.moving.x * airSpeedMultiplier);
 
-				transform.localScale = new Vector3 (forceX > 0 ? 1.0f : -1.0f, 1.0f, 1.0f);
+				transform.localScale = new Vector3 (forceX > 0 ? 2.0f : -2.0f, 2.0f, 2.0f);
 			}
 			animator.SetInteger ("State", 1);
 		} 
