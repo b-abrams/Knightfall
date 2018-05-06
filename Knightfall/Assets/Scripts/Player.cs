@@ -17,6 +17,7 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D rbody; 							// Reference to RigidBody for player physics
 	private Animator animator; 							// Reference to animatior for player animation timings
 	private PlayerController controller; 				//Reference to player controller class
+	private BoxCollider2D collider;
 
 	// Start is called at the beginning of the game for initialization
 	void Start(){
@@ -111,8 +112,6 @@ public class Player : MonoBehaviour {
 			animator.SetBool ("Thrusting", false);
 			thrusting = false;
 		}
-
-
 		rbody.AddForce (new Vector2 (forceX, forceY));
 
 	}
