@@ -9,6 +9,8 @@ public class Player : MonoBehaviour {
 	public float airSpeedMultiplier = .2f; 				//Slows down player while in air
 	public bool grounded; 								//Determine wether the player is on the ground or in the air
 	public Vector2 maxVelocity = new Vector2(200, 250); 	// Maximum velocity of Player
+	public bool slashing = false;
+	public bool thrusting = false;
 	private float maxJumpHeight = 100f;
 	private float yInit = 0f;
 	private bool maxHeightReached = false;
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour {
 		rbody = GetComponent<Rigidbody2D>();
 		controller = GetComponent<PlayerController> ();
 		animator = GetComponent<Animator> ();
+
 	}
 
 	// Update is called once per frame
@@ -44,12 +47,12 @@ public class Player : MonoBehaviour {
 			maxHeightReached = false;
 		}
 			
-		if (Input.GetKey ("d")) {
+		if (Input.GetKey ("d") && !thrusting) {
 			if(absVelX <= maxVelocity.x)
 				forceX = grounded ? moveSpeed : (moveSpeed * airSpeedMultiplier);
 				transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
 		}
-		if(Input.GetKey ("a")){
+		if(Input.GetKey ("a") && !thrusting){
 			if(absVelX <= maxVelocity.x)
 				forceX = grounded ? -moveSpeed : (-moveSpeed * airSpeedMultiplier);
 				transform.localScale = new Vector3 (-2.0f, 2.0f, 2.0f);
@@ -68,21 +71,12 @@ public class Player : MonoBehaviour {
 			
 		if (Input.GetKey ("j")) {
 			animator.SetBool ("Slashing", true);
+			slashing = true;
 
 		}
 		else {
 			animator.SetBool ("Slashing", false);
-		}
-
-		if (Input.GetKey ("k") && grounded && controller.moving.x == controller.moving.y) {
-			animator.SetBool ("Thrusting", true);
-			if (Input.GetKey ("d") || Input.GetKey ("a") || Input.GetKey("space"))
-				forceX = 0f;
-				forceY = 0f;
-
-		}
-		else {
-			animator.SetBool ("Thrusting", false);
+			slashing = false;
 		}
 
 		if (controller.moving.x != 0) {
@@ -105,6 +99,19 @@ public class Player : MonoBehaviour {
 		else{
 			animator.SetBool("Airborne", false);
 		}
+		if(thrusting && (Input.GetKey ("d") || Input.GetKey ("a") || Input.GetKey ("space"))) {
+			forceX = 0f;
+			forceY = 0f;
+		}
+		else if (Input.GetKey ("k") && grounded && controller.moving.x == controller.moving.y) {
+			animator.SetBool ("Thrusting", true);
+			thrusting = true;
+		}
+		else {
+			animator.SetBool ("Thrusting", false);
+			thrusting = false;
+		}
+
 
 		rbody.AddForce (new Vector2 (forceX, forceY));
 
