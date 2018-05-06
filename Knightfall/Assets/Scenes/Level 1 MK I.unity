@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 8
+  serializedVersion: 9
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -54,11 +55,10 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
+    m_AtlasSize: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 104094}
   - component: {fileID: 104096}
   - component: {fileID: 104095}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,6 +181,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -254,6 +255,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -295,7 +297,7 @@ GameObject:
   - component: {fileID: 16994432}
   - component: {fileID: 16994434}
   - component: {fileID: 16994433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,6 +355,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -426,6 +429,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -467,7 +471,7 @@ GameObject:
   - component: {fileID: 27468901}
   - component: {fileID: 27468903}
   - component: {fileID: 27468902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,6 +529,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -566,7 +571,7 @@ GameObject:
   - component: {fileID: 32451199}
   - component: {fileID: 32451201}
   - component: {fileID: 32451200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,6 +629,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -665,7 +671,7 @@ GameObject:
   - component: {fileID: 45944756}
   - component: {fileID: 45944758}
   - component: {fileID: 45944757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,6 +729,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -764,7 +771,7 @@ GameObject:
   - component: {fileID: 49154333}
   - component: {fileID: 49154335}
   - component: {fileID: 49154334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,6 +829,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -895,6 +903,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -936,7 +945,7 @@ GameObject:
   - component: {fileID: 57724422}
   - component: {fileID: 57724424}
   - component: {fileID: 57724423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,6 +1003,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1067,6 +1077,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1140,6 +1151,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1181,7 +1193,7 @@ GameObject:
   - component: {fileID: 96929922}
   - component: {fileID: 96929924}
   - component: {fileID: 96929923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,6 +1251,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1280,7 +1293,7 @@ GameObject:
   - component: {fileID: 110773118}
   - component: {fileID: 110773120}
   - component: {fileID: 110773119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,6 +1351,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1379,7 +1393,7 @@ GameObject:
   - component: {fileID: 124911059}
   - component: {fileID: 124911061}
   - component: {fileID: 124911060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,6 +1451,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1478,7 +1493,7 @@ GameObject:
   - component: {fileID: 126749996}
   - component: {fileID: 126749998}
   - component: {fileID: 126749997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,6 +1551,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1577,7 +1593,7 @@ GameObject:
   - component: {fileID: 127591878}
   - component: {fileID: 127591880}
   - component: {fileID: 127591879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1635,6 +1651,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1708,6 +1725,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1749,7 +1767,7 @@ GameObject:
   - component: {fileID: 137136023}
   - component: {fileID: 137136025}
   - component: {fileID: 137136024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1807,6 +1825,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1848,7 +1867,7 @@ GameObject:
   - component: {fileID: 164578540}
   - component: {fileID: 164578539}
   - component: {fileID: 164578538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1893,6 +1912,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1947,7 +1967,7 @@ GameObject:
   - component: {fileID: 167737114}
   - component: {fileID: 167737116}
   - component: {fileID: 167737115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2005,6 +2025,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2078,6 +2099,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2151,6 +2173,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2224,6 +2247,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2340,7 +2364,7 @@ GameObject:
   - component: {fileID: 198392808}
   - component: {fileID: 198392807}
   - component: {fileID: 198392806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2385,6 +2409,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2471,6 +2496,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2531,6 +2557,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2585,7 +2612,7 @@ GameObject:
   - component: {fileID: 229924297}
   - component: {fileID: 229924299}
   - component: {fileID: 229924298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,6 +2670,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2716,6 +2744,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2757,7 +2786,7 @@ GameObject:
   - component: {fileID: 247664381}
   - component: {fileID: 247664383}
   - component: {fileID: 247664382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2815,6 +2844,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2856,7 +2886,7 @@ GameObject:
   - component: {fileID: 249021222}
   - component: {fileID: 249021224}
   - component: {fileID: 249021223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2914,6 +2944,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -2955,7 +2986,7 @@ GameObject:
   - component: {fileID: 255963492}
   - component: {fileID: 255963494}
   - component: {fileID: 255963493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3013,6 +3044,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3086,6 +3118,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3127,7 +3160,7 @@ GameObject:
   - component: {fileID: 286635414}
   - component: {fileID: 286635416}
   - component: {fileID: 286635415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3185,6 +3218,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3226,7 +3260,7 @@ GameObject:
   - component: {fileID: 293509438}
   - component: {fileID: 293509437}
   - component: {fileID: 293509436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3271,6 +3305,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3325,7 +3360,7 @@ GameObject:
   - component: {fileID: 299263395}
   - component: {fileID: 299263397}
   - component: {fileID: 299263396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3383,6 +3418,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3424,7 +3460,7 @@ GameObject:
   - component: {fileID: 308035258}
   - component: {fileID: 308035260}
   - component: {fileID: 308035259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3482,6 +3518,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3555,6 +3592,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3596,7 +3634,7 @@ GameObject:
   - component: {fileID: 327250326}
   - component: {fileID: 327250328}
   - component: {fileID: 327250327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3654,6 +3692,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3727,6 +3766,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3800,6 +3840,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3841,7 +3882,7 @@ GameObject:
   - component: {fileID: 359667537}
   - component: {fileID: 359667539}
   - component: {fileID: 359667538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3899,6 +3940,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -3940,7 +3982,7 @@ GameObject:
   - component: {fileID: 360730192}
   - component: {fileID: 360730194}
   - component: {fileID: 360730193}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3998,6 +4040,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4039,7 +4082,7 @@ GameObject:
   - component: {fileID: 378391717}
   - component: {fileID: 378391719}
   - component: {fileID: 378391718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4097,6 +4140,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4138,7 +4182,7 @@ GameObject:
   - component: {fileID: 379814714}
   - component: {fileID: 379814716}
   - component: {fileID: 379814715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4196,6 +4240,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4269,6 +4314,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4342,6 +4388,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4383,7 +4430,7 @@ GameObject:
   - component: {fileID: 427469994}
   - component: {fileID: 427469996}
   - component: {fileID: 427469995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (140)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4441,6 +4488,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4514,6 +4562,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4587,6 +4636,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4628,7 +4678,7 @@ GameObject:
   - component: {fileID: 448917496}
   - component: {fileID: 448917498}
   - component: {fileID: 448917497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4686,6 +4736,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4727,7 +4778,7 @@ GameObject:
   - component: {fileID: 451245615}
   - component: {fileID: 451245617}
   - component: {fileID: 451245616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4785,6 +4836,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4858,6 +4910,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4918,6 +4971,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -4972,7 +5026,7 @@ GameObject:
   - component: {fileID: 469685063}
   - component: {fileID: 469685065}
   - component: {fileID: 469685064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5030,6 +5084,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5071,7 +5126,7 @@ GameObject:
   - component: {fileID: 471020878}
   - component: {fileID: 471020880}
   - component: {fileID: 471020879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5129,6 +5184,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5170,7 +5226,7 @@ GameObject:
   - component: {fileID: 531948213}
   - component: {fileID: 531948215}
   - component: {fileID: 531948214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5228,6 +5284,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5301,6 +5358,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5342,7 +5400,7 @@ GameObject:
   - component: {fileID: 548930828}
   - component: {fileID: 548930830}
   - component: {fileID: 548930829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5400,6 +5458,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5473,6 +5532,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5514,7 +5574,7 @@ GameObject:
   - component: {fileID: 556077665}
   - component: {fileID: 556077667}
   - component: {fileID: 556077666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5572,6 +5632,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5613,7 +5674,7 @@ GameObject:
   - component: {fileID: 556094026}
   - component: {fileID: 556094028}
   - component: {fileID: 556094027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5671,6 +5732,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5744,6 +5806,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5785,7 +5848,7 @@ GameObject:
   - component: {fileID: 567018698}
   - component: {fileID: 567018700}
   - component: {fileID: 567018699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5843,6 +5906,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5884,7 +5948,7 @@ GameObject:
   - component: {fileID: 573018827}
   - component: {fileID: 573018829}
   - component: {fileID: 573018828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5942,6 +6006,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -5983,7 +6048,7 @@ GameObject:
   - component: {fileID: 576194635}
   - component: {fileID: 576194637}
   - component: {fileID: 576194636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6041,6 +6106,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6082,7 +6148,7 @@ GameObject:
   - component: {fileID: 595022583}
   - component: {fileID: 595022585}
   - component: {fileID: 595022584}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6140,6 +6206,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6181,7 +6248,7 @@ GameObject:
   - component: {fileID: 611378264}
   - component: {fileID: 611378266}
   - component: {fileID: 611378265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6239,6 +6306,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6280,7 +6348,7 @@ GameObject:
   - component: {fileID: 619519528}
   - component: {fileID: 619519530}
   - component: {fileID: 619519529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6338,6 +6406,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6379,7 +6448,7 @@ GameObject:
   - component: {fileID: 641693021}
   - component: {fileID: 641693023}
   - component: {fileID: 641693022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6437,6 +6506,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6510,6 +6580,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6551,7 +6622,7 @@ GameObject:
   - component: {fileID: 668285102}
   - component: {fileID: 668285104}
   - component: {fileID: 668285103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6609,6 +6680,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6650,7 +6722,7 @@ GameObject:
   - component: {fileID: 669734840}
   - component: {fileID: 669734842}
   - component: {fileID: 669734841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6708,6 +6780,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6749,7 +6822,7 @@ GameObject:
   - component: {fileID: 669873593}
   - component: {fileID: 669873595}
   - component: {fileID: 669873594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6807,6 +6880,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6880,6 +6954,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -6921,7 +6996,7 @@ GameObject:
   - component: {fileID: 682446034}
   - component: {fileID: 682446036}
   - component: {fileID: 682446035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6979,6 +7054,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7039,6 +7115,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7093,7 +7170,7 @@ GameObject:
   - component: {fileID: 695949324}
   - component: {fileID: 695949326}
   - component: {fileID: 695949325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7151,6 +7228,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7192,7 +7270,7 @@ GameObject:
   - component: {fileID: 696367349}
   - component: {fileID: 696367351}
   - component: {fileID: 696367350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7250,6 +7328,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7291,7 +7370,7 @@ GameObject:
   - component: {fileID: 697444413}
   - component: {fileID: 697444415}
   - component: {fileID: 697444414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7349,6 +7428,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7422,6 +7502,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7463,7 +7544,7 @@ GameObject:
   - component: {fileID: 711878718}
   - component: {fileID: 711878720}
   - component: {fileID: 711878719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7521,6 +7602,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7594,6 +7676,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7635,7 +7718,7 @@ GameObject:
   - component: {fileID: 719311050}
   - component: {fileID: 719311052}
   - component: {fileID: 719311051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7693,6 +7776,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7766,6 +7850,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7839,6 +7924,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7880,7 +7966,7 @@ GameObject:
   - component: {fileID: 724778664}
   - component: {fileID: 724778666}
   - component: {fileID: 724778665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7938,6 +8024,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -7979,7 +8066,7 @@ GameObject:
   - component: {fileID: 732626473}
   - component: {fileID: 732626475}
   - component: {fileID: 732626474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8037,6 +8124,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8078,7 +8166,7 @@ GameObject:
   - component: {fileID: 742982084}
   - component: {fileID: 742982086}
   - component: {fileID: 742982085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8136,6 +8224,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8196,6 +8285,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8250,7 +8340,7 @@ GameObject:
   - component: {fileID: 765145841}
   - component: {fileID: 765145843}
   - component: {fileID: 765145842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8308,6 +8398,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8349,7 +8440,7 @@ GameObject:
   - component: {fileID: 770007446}
   - component: {fileID: 770007448}
   - component: {fileID: 770007447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8407,6 +8498,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8448,7 +8540,7 @@ GameObject:
   - component: {fileID: 770192993}
   - component: {fileID: 770192995}
   - component: {fileID: 770192994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8506,6 +8598,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8648,7 +8741,7 @@ Transform:
   - {fileID: 404029609}
   - {fileID: 994002532}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778490524
 GameObject:
@@ -8660,7 +8753,7 @@ GameObject:
   - component: {fileID: 778490525}
   - component: {fileID: 778490527}
   - component: {fileID: 778490526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8718,6 +8811,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8778,6 +8872,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8832,7 +8927,7 @@ GameObject:
   - component: {fileID: 818166422}
   - component: {fileID: 818166424}
   - component: {fileID: 818166423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8890,6 +8985,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -8931,7 +9027,7 @@ GameObject:
   - component: {fileID: 818308729}
   - component: {fileID: 818308731}
   - component: {fileID: 818308730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8989,6 +9085,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9062,6 +9159,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9103,7 +9201,7 @@ GameObject:
   - component: {fileID: 821393823}
   - component: {fileID: 821393825}
   - component: {fileID: 821393824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9161,6 +9259,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9202,7 +9301,7 @@ GameObject:
   - component: {fileID: 823391880}
   - component: {fileID: 823391882}
   - component: {fileID: 823391881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (146)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9260,6 +9359,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9301,7 +9401,7 @@ GameObject:
   - component: {fileID: 826820131}
   - component: {fileID: 826820133}
   - component: {fileID: 826820132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,6 +9459,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9400,7 +9501,7 @@ GameObject:
   - component: {fileID: 834859348}
   - component: {fileID: 834859350}
   - component: {fileID: 834859349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9458,6 +9559,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9499,7 +9601,7 @@ GameObject:
   - component: {fileID: 843548182}
   - component: {fileID: 843548184}
   - component: {fileID: 843548183}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9557,6 +9659,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9598,7 +9701,7 @@ GameObject:
   - component: {fileID: 848190299}
   - component: {fileID: 848190301}
   - component: {fileID: 848190300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9656,6 +9759,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9697,7 +9801,7 @@ GameObject:
   - component: {fileID: 853793326}
   - component: {fileID: 853793328}
   - component: {fileID: 853793327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9755,6 +9859,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9828,6 +9933,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9901,6 +10007,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -9974,6 +10081,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10015,7 +10123,7 @@ GameObject:
   - component: {fileID: 867335998}
   - component: {fileID: 867336000}
   - component: {fileID: 867335999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10073,6 +10181,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10211,7 +10320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2045662322}
-  scale: 3
+  scale: 1
 --- !u!1 &886668809
 GameObject:
   m_ObjectHideFlags: 0
@@ -10222,7 +10331,7 @@ GameObject:
   - component: {fileID: 886668810}
   - component: {fileID: 886668812}
   - component: {fileID: 886668811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10280,6 +10389,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10321,7 +10431,7 @@ GameObject:
   - component: {fileID: 891050765}
   - component: {fileID: 891050767}
   - component: {fileID: 891050766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10379,6 +10489,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10452,6 +10563,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10493,7 +10605,7 @@ GameObject:
   - component: {fileID: 918746057}
   - component: {fileID: 918746059}
   - component: {fileID: 918746058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10551,6 +10663,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10592,7 +10705,7 @@ GameObject:
   - component: {fileID: 925046954}
   - component: {fileID: 925046956}
   - component: {fileID: 925046955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10650,6 +10763,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10691,7 +10805,7 @@ GameObject:
   - component: {fileID: 932692678}
   - component: {fileID: 932692680}
   - component: {fileID: 932692679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10749,6 +10863,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10790,7 +10905,7 @@ GameObject:
   - component: {fileID: 944915406}
   - component: {fileID: 944915408}
   - component: {fileID: 944915407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10848,6 +10963,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10921,6 +11037,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -10962,7 +11079,7 @@ GameObject:
   - component: {fileID: 951733013}
   - component: {fileID: 951733015}
   - component: {fileID: 951733014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11020,6 +11137,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11061,7 +11179,7 @@ GameObject:
   - component: {fileID: 953500110}
   - component: {fileID: 953500112}
   - component: {fileID: 953500111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11119,6 +11237,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11160,7 +11279,7 @@ GameObject:
   - component: {fileID: 953964359}
   - component: {fileID: 953964361}
   - component: {fileID: 953964360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11218,6 +11337,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11259,7 +11379,7 @@ GameObject:
   - component: {fileID: 955774287}
   - component: {fileID: 955774289}
   - component: {fileID: 955774288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11317,6 +11437,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11358,7 +11479,7 @@ GameObject:
   - component: {fileID: 959379505}
   - component: {fileID: 959379507}
   - component: {fileID: 959379506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11416,6 +11537,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11457,7 +11579,7 @@ GameObject:
   - component: {fileID: 970967369}
   - component: {fileID: 970967371}
   - component: {fileID: 970967370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11515,6 +11637,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11588,6 +11711,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11661,6 +11785,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11692,6 +11817,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &988898811
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 55.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959019281709902, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1697c72a8d86ca749b6fd9b0e686462e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &994002531
 GameObject:
   m_ObjectHideFlags: 0
@@ -11734,6 +11901,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11807,6 +11975,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11848,7 +12017,7 @@ GameObject:
   - component: {fileID: 1018744378}
   - component: {fileID: 1018744380}
   - component: {fileID: 1018744379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11906,6 +12075,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -11947,7 +12117,7 @@ GameObject:
   - component: {fileID: 1030886404}
   - component: {fileID: 1030886406}
   - component: {fileID: 1030886405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12005,6 +12175,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12046,7 +12217,7 @@ GameObject:
   - component: {fileID: 1043912801}
   - component: {fileID: 1043912803}
   - component: {fileID: 1043912802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12104,6 +12275,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12177,6 +12349,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12218,7 +12391,7 @@ GameObject:
   - component: {fileID: 1053714196}
   - component: {fileID: 1053714198}
   - component: {fileID: 1053714197}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12276,6 +12449,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12349,6 +12523,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12422,6 +12597,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12463,7 +12639,7 @@ GameObject:
   - component: {fileID: 1076095256}
   - component: {fileID: 1076095258}
   - component: {fileID: 1076095257}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12521,6 +12697,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12562,7 +12739,7 @@ GameObject:
   - component: {fileID: 1082816803}
   - component: {fileID: 1082816805}
   - component: {fileID: 1082816804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12620,6 +12797,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12693,6 +12871,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -12732,7 +12911,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1110667206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12917,7 +13096,7 @@ Transform:
   - {fileID: 1658967142}
   - {fileID: 164578540}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1117231636
 GameObject:
@@ -12929,7 +13108,7 @@ GameObject:
   - component: {fileID: 1117231637}
   - component: {fileID: 1117231639}
   - component: {fileID: 1117231638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12987,6 +13166,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13028,7 +13208,7 @@ GameObject:
   - component: {fileID: 1122600285}
   - component: {fileID: 1122600287}
   - component: {fileID: 1122600286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13086,6 +13266,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13127,7 +13308,7 @@ GameObject:
   - component: {fileID: 1150274718}
   - component: {fileID: 1150274720}
   - component: {fileID: 1150274719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13185,6 +13366,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13226,7 +13408,7 @@ GameObject:
   - component: {fileID: 1170445705}
   - component: {fileID: 1170445707}
   - component: {fileID: 1170445706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13284,6 +13466,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13325,7 +13508,7 @@ GameObject:
   - component: {fileID: 1173244685}
   - component: {fileID: 1173244684}
   - component: {fileID: 1173244683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13370,6 +13553,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13456,6 +13640,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13529,6 +13714,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13602,6 +13788,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13643,7 +13830,7 @@ GameObject:
   - component: {fileID: 1222131294}
   - component: {fileID: 1222131296}
   - component: {fileID: 1222131295}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13701,6 +13888,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13774,6 +13962,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13847,6 +14036,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13888,7 +14078,7 @@ GameObject:
   - component: {fileID: 1252988107}
   - component: {fileID: 1252988109}
   - component: {fileID: 1252988108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13946,6 +14136,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -13987,7 +14178,7 @@ GameObject:
   - component: {fileID: 1254772075}
   - component: {fileID: 1254772077}
   - component: {fileID: 1254772076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14045,6 +14236,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14118,6 +14310,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14191,6 +14384,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14264,6 +14458,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14305,7 +14500,7 @@ GameObject:
   - component: {fileID: 1291388461}
   - component: {fileID: 1291388463}
   - component: {fileID: 1291388462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14363,6 +14558,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14404,7 +14600,7 @@ GameObject:
   - component: {fileID: 1308323239}
   - component: {fileID: 1308323241}
   - component: {fileID: 1308323240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14462,6 +14658,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14503,7 +14700,7 @@ GameObject:
   - component: {fileID: 1312472672}
   - component: {fileID: 1312472674}
   - component: {fileID: 1312472673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14561,6 +14758,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14602,7 +14800,7 @@ GameObject:
   - component: {fileID: 1345922779}
   - component: {fileID: 1345922781}
   - component: {fileID: 1345922780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14660,6 +14858,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14701,7 +14900,7 @@ GameObject:
   - component: {fileID: 1391457426}
   - component: {fileID: 1391457428}
   - component: {fileID: 1391457427}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14759,6 +14958,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14832,6 +15032,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14873,7 +15074,7 @@ GameObject:
   - component: {fileID: 1403972546}
   - component: {fileID: 1403972548}
   - component: {fileID: 1403972547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14931,6 +15132,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -14972,7 +15174,7 @@ GameObject:
   - component: {fileID: 1411761208}
   - component: {fileID: 1411761210}
   - component: {fileID: 1411761209}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15030,6 +15232,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15103,6 +15306,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15144,7 +15348,7 @@ GameObject:
   - component: {fileID: 1423682383}
   - component: {fileID: 1423682385}
   - component: {fileID: 1423682384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15202,6 +15406,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15243,7 +15448,7 @@ GameObject:
   - component: {fileID: 1423873573}
   - component: {fileID: 1423873575}
   - component: {fileID: 1423873574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15301,6 +15506,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15374,6 +15580,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15415,7 +15622,7 @@ GameObject:
   - component: {fileID: 1429322150}
   - component: {fileID: 1429322149}
   - component: {fileID: 1429322148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15460,6 +15667,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15514,7 +15722,7 @@ GameObject:
   - component: {fileID: 1436030204}
   - component: {fileID: 1436030206}
   - component: {fileID: 1436030205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15572,6 +15780,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15613,7 +15822,7 @@ GameObject:
   - component: {fileID: 1452200257}
   - component: {fileID: 1452200259}
   - component: {fileID: 1452200258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15671,6 +15880,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15712,7 +15922,7 @@ GameObject:
   - component: {fileID: 1487855473}
   - component: {fileID: 1487855475}
   - component: {fileID: 1487855474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15770,6 +15980,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15843,6 +16054,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -15884,7 +16096,7 @@ GameObject:
   - component: {fileID: 1502390771}
   - component: {fileID: 1502390773}
   - component: {fileID: 1502390772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15942,6 +16154,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16015,6 +16228,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16056,7 +16270,7 @@ GameObject:
   - component: {fileID: 1508134006}
   - component: {fileID: 1508134008}
   - component: {fileID: 1508134007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16114,6 +16328,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16155,7 +16370,7 @@ GameObject:
   - component: {fileID: 1529479203}
   - component: {fileID: 1529479205}
   - component: {fileID: 1529479204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16213,6 +16428,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16254,7 +16470,7 @@ GameObject:
   - component: {fileID: 1531687002}
   - component: {fileID: 1531687004}
   - component: {fileID: 1531687003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16312,6 +16528,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16353,7 +16570,7 @@ GameObject:
   - component: {fileID: 1544373594}
   - component: {fileID: 1544373596}
   - component: {fileID: 1544373595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16411,6 +16628,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16452,7 +16670,7 @@ GameObject:
   - component: {fileID: 1549923794}
   - component: {fileID: 1549923796}
   - component: {fileID: 1549923795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16510,6 +16728,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16551,7 +16770,7 @@ GameObject:
   - component: {fileID: 1553535706}
   - component: {fileID: 1553535708}
   - component: {fileID: 1553535707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16609,6 +16828,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16650,7 +16870,7 @@ GameObject:
   - component: {fileID: 1555716034}
   - component: {fileID: 1555716036}
   - component: {fileID: 1555716035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16708,6 +16928,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16749,7 +16970,7 @@ GameObject:
   - component: {fileID: 1567268308}
   - component: {fileID: 1567268310}
   - component: {fileID: 1567268309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16807,6 +17028,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16848,7 +17070,7 @@ GameObject:
   - component: {fileID: 1567358609}
   - component: {fileID: 1567358611}
   - component: {fileID: 1567358610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16906,6 +17128,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -16979,6 +17202,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17020,7 +17244,7 @@ GameObject:
   - component: {fileID: 1588030497}
   - component: {fileID: 1588030499}
   - component: {fileID: 1588030498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17078,6 +17302,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17119,7 +17344,7 @@ GameObject:
   - component: {fileID: 1589550954}
   - component: {fileID: 1589550956}
   - component: {fileID: 1589550955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17177,6 +17402,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17218,7 +17444,7 @@ GameObject:
   - component: {fileID: 1591603958}
   - component: {fileID: 1591603960}
   - component: {fileID: 1591603959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17276,6 +17502,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17317,7 +17544,7 @@ GameObject:
   - component: {fileID: 1600233536}
   - component: {fileID: 1600233538}
   - component: {fileID: 1600233537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17375,6 +17602,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17416,7 +17644,7 @@ GameObject:
   - component: {fileID: 1612077908}
   - component: {fileID: 1612077910}
   - component: {fileID: 1612077909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17474,6 +17702,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17515,7 +17744,7 @@ GameObject:
   - component: {fileID: 1624552259}
   - component: {fileID: 1624552261}
   - component: {fileID: 1624552260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17573,6 +17802,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17614,7 +17844,7 @@ GameObject:
   - component: {fileID: 1634229481}
   - component: {fileID: 1634229483}
   - component: {fileID: 1634229482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17672,6 +17902,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17745,6 +17976,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17786,7 +18018,7 @@ GameObject:
   - component: {fileID: 1641133721}
   - component: {fileID: 1641133723}
   - component: {fileID: 1641133722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17844,6 +18076,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17885,7 +18118,7 @@ GameObject:
   - component: {fileID: 1652707756}
   - component: {fileID: 1652707758}
   - component: {fileID: 1652707757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17943,6 +18176,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -17984,7 +18218,7 @@ GameObject:
   - component: {fileID: 1658967142}
   - component: {fileID: 1658967141}
   - component: {fileID: 1658967140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18029,6 +18263,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18083,7 +18318,7 @@ GameObject:
   - component: {fileID: 1670139273}
   - component: {fileID: 1670139275}
   - component: {fileID: 1670139274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18141,6 +18376,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18214,6 +18450,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18255,7 +18492,7 @@ GameObject:
   - component: {fileID: 1675848969}
   - component: {fileID: 1675848971}
   - component: {fileID: 1675848970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18313,6 +18550,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18354,7 +18592,7 @@ GameObject:
   - component: {fileID: 1684053989}
   - component: {fileID: 1684053991}
   - component: {fileID: 1684053990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18412,6 +18650,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18485,6 +18724,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18526,7 +18766,7 @@ GameObject:
   - component: {fileID: 1694388955}
   - component: {fileID: 1694388957}
   - component: {fileID: 1694388956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18584,6 +18824,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18657,6 +18898,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18730,6 +18972,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18771,7 +19014,7 @@ GameObject:
   - component: {fileID: 1703529384}
   - component: {fileID: 1703529386}
   - component: {fileID: 1703529385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18829,6 +19072,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18870,7 +19114,7 @@ GameObject:
   - component: {fileID: 1703806222}
   - component: {fileID: 1703806224}
   - component: {fileID: 1703806223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18928,6 +19172,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -18969,7 +19214,7 @@ GameObject:
   - component: {fileID: 1704810015}
   - component: {fileID: 1704810017}
   - component: {fileID: 1704810016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19027,6 +19272,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19068,7 +19314,7 @@ GameObject:
   - component: {fileID: 1716590685}
   - component: {fileID: 1716590687}
   - component: {fileID: 1716590686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19126,6 +19372,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19167,7 +19414,7 @@ GameObject:
   - component: {fileID: 1730026331}
   - component: {fileID: 1730026333}
   - component: {fileID: 1730026332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19225,6 +19472,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19298,6 +19546,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19371,6 +19620,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19412,7 +19662,7 @@ GameObject:
   - component: {fileID: 1751113041}
   - component: {fileID: 1751113043}
   - component: {fileID: 1751113042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19470,6 +19720,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19530,6 +19781,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19584,7 +19836,7 @@ GameObject:
   - component: {fileID: 1794067355}
   - component: {fileID: 1794067357}
   - component: {fileID: 1794067356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19642,6 +19894,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19683,7 +19936,7 @@ GameObject:
   - component: {fileID: 1802981512}
   - component: {fileID: 1802981514}
   - component: {fileID: 1802981513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19741,6 +19994,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19782,7 +20036,7 @@ GameObject:
   - component: {fileID: 1811969692}
   - component: {fileID: 1811969694}
   - component: {fileID: 1811969693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19840,6 +20094,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19881,7 +20136,7 @@ GameObject:
   - component: {fileID: 1816002891}
   - component: {fileID: 1816002893}
   - component: {fileID: 1816002892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19939,6 +20194,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -19999,6 +20255,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20053,7 +20310,7 @@ GameObject:
   - component: {fileID: 1823413672}
   - component: {fileID: 1823413674}
   - component: {fileID: 1823413673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20111,6 +20368,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20152,7 +20410,7 @@ GameObject:
   - component: {fileID: 1841764697}
   - component: {fileID: 1841764699}
   - component: {fileID: 1841764698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20210,6 +20468,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20251,7 +20510,7 @@ GameObject:
   - component: {fileID: 1878928380}
   - component: {fileID: 1878928382}
   - component: {fileID: 1878928381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20309,6 +20568,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20350,7 +20610,7 @@ GameObject:
   - component: {fileID: 1885913217}
   - component: {fileID: 1885913216}
   - component: {fileID: 1885913215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20395,6 +20655,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20449,7 +20710,7 @@ GameObject:
   - component: {fileID: 1903129199}
   - component: {fileID: 1903129201}
   - component: {fileID: 1903129200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20507,6 +20768,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20580,6 +20842,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20621,7 +20884,7 @@ GameObject:
   - component: {fileID: 1925413298}
   - component: {fileID: 1925413300}
   - component: {fileID: 1925413299}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20679,6 +20942,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20720,7 +20984,7 @@ GameObject:
   - component: {fileID: 1938022397}
   - component: {fileID: 1938022399}
   - component: {fileID: 1938022398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20778,6 +21042,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20819,7 +21084,7 @@ GameObject:
   - component: {fileID: 1942052639}
   - component: {fileID: 1942052641}
   - component: {fileID: 1942052640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20877,6 +21142,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -20918,7 +21184,7 @@ GameObject:
   - component: {fileID: 1944230310}
   - component: {fileID: 1944230312}
   - component: {fileID: 1944230311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20976,6 +21242,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21049,6 +21316,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21109,6 +21377,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21163,7 +21432,7 @@ GameObject:
   - component: {fileID: 1963732133}
   - component: {fileID: 1963732135}
   - component: {fileID: 1963732134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21221,6 +21490,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21262,7 +21532,7 @@ GameObject:
   - component: {fileID: 1975369458}
   - component: {fileID: 1975369460}
   - component: {fileID: 1975369459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21320,6 +21590,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21361,7 +21632,7 @@ GameObject:
   - component: {fileID: 1975415469}
   - component: {fileID: 1975415471}
   - component: {fileID: 1975415470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21419,6 +21690,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21492,6 +21764,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21565,6 +21838,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21606,7 +21880,7 @@ GameObject:
   - component: {fileID: 1999285153}
   - component: {fileID: 1999285155}
   - component: {fileID: 1999285154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21664,6 +21938,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21737,6 +22012,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21778,7 +22054,7 @@ GameObject:
   - component: {fileID: 2021074407}
   - component: {fileID: 2021074409}
   - component: {fileID: 2021074408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21836,6 +22112,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21909,6 +22186,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -21950,7 +22228,7 @@ GameObject:
   - component: {fileID: 2034332427}
   - component: {fileID: 2034332429}
   - component: {fileID: 2034332428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22008,6 +22286,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22081,6 +22360,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22154,6 +22434,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22232,6 +22513,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22273,7 +22555,7 @@ GameObject:
   - component: {fileID: 2082907600}
   - component: {fileID: 2082907602}
   - component: {fileID: 2082907601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22331,6 +22613,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22372,7 +22655,7 @@ GameObject:
   - component: {fileID: 2086238534}
   - component: {fileID: 2086238536}
   - component: {fileID: 2086238535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22430,6 +22713,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22503,6 +22787,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22544,7 +22829,7 @@ GameObject:
   - component: {fileID: 2091900859}
   - component: {fileID: 2091900861}
   - component: {fileID: 2091900860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (138)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22602,6 +22887,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22675,6 +22961,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22748,6 +23035,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22821,6 +23109,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22862,7 +23151,7 @@ GameObject:
   - component: {fileID: 2103159762}
   - component: {fileID: 2103159764}
   - component: {fileID: 2103159763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22920,6 +23209,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -22961,7 +23251,7 @@ GameObject:
   - component: {fileID: 2111650383}
   - component: {fileID: 2111650385}
   - component: {fileID: 2111650384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23019,6 +23309,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -23060,7 +23351,7 @@ GameObject:
   - component: {fileID: 2117218707}
   - component: {fileID: 2117218709}
   - component: {fileID: 2117218708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23118,6 +23409,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -23159,7 +23451,7 @@ GameObject:
   - component: {fileID: 2141169683}
   - component: {fileID: 2141169685}
   - component: {fileID: 2141169684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23217,6 +23509,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -23258,7 +23551,7 @@ GameObject:
   - component: {fileID: 2144712423}
   - component: {fileID: 2144712425}
   - component: {fileID: 2144712424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platformertiles_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23316,6 +23609,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
