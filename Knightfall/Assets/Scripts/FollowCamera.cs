@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour {
 	public SpriteRenderer background;
 	public Transform cameraTrans, backgroudTrans;
-	public float posX, posY, posZ;
+	public float posX, posY, posZ, initY;
 
 	void Awake(){
 		background = GetComponent<SpriteRenderer> ();
@@ -26,6 +26,7 @@ public class FollowCamera : MonoBehaviour {
 		posX = cameraTrans.position.x;
 		posY = cameraTrans.position.y;
 		posZ = backgroudTrans.position.z;
+		initY = posY;
 
 	}
 	
@@ -33,6 +34,7 @@ public class FollowCamera : MonoBehaviour {
 	void Update () {
 		backgroudTrans.position = new Vector3 (posX, posY, posZ);
 		posX = cameraTrans.position.x;
-		posY = cameraTrans.position.y;
+		if(cameraTrans.position.y >= initY)
+			posY = cameraTrans.position.y;
 	}
 }
