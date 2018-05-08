@@ -5,7 +5,7 @@ using UnityEngine;
 public class Explode : MonoBehaviour {
 
     public Debris debris;
-	public BoxCollider2D collider;
+	public BoxCollider2D collider, outOfBounds;
     public int totalDebris = 10;
     
 
@@ -21,7 +21,7 @@ public class Explode : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D target)
     {
-		if(target.gameObject.tag == "Deadly" && collider.IsTouching(target))
+		if((target.gameObject.tag == "Deadly" && collider.IsTouching(target)) || (target == outOfBounds && collider.IsTouching(target)))
         {
             OnExplode();
         }
@@ -29,7 +29,7 @@ public class Explode : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D target)
     {
-		if (target.gameObject.tag == "Deadly"&& collider.IsTouching(target.collider))
+		if (target.gameObject.tag == "Deadly" && collider.IsTouching(target.collider) || (target.collider == outOfBounds && collider.IsTouching(target.collider)))
         {
             OnExplode();
         }

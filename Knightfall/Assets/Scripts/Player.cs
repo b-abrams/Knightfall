@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
 	public Vector2 maxVelocity = new Vector2(200, 250); 	// Maximum velocity of Player
 	public bool slashing = false;
 	public bool thrusting = false;
-	private float maxJumpHeight = 100f;
+	private float maxJumpHeight = 200f;
 	private float yInit = 0f;
 	private bool maxHeightReached = false;
 	private Rigidbody2D rbody; 							// Reference to RigidBody for player physics
