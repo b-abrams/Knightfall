@@ -6,13 +6,14 @@ public class CameraSize : MonoBehaviour {
 
 	public static float pixelsToUnits = 1f;
 	public static float scale = 1f;
-	public Vector2 nativeResolution = new Vector2(360, 240);
+	public Resolution nativeResolution;
 
 	// Use this for initialization
 	void Awake () {
+		nativeResolution = Screen.currentResolution;
 		var camera = GetComponent<Camera> ();
 		if (camera.orthographic) {
-			scale = Screen.height / nativeResolution.y;
+			scale = Screen.height / nativeResolution.height;
 			pixelsToUnits *= scale;
 			camera.orthographicSize = (Screen.height / 2.0f) / pixelsToUnits;
 		}
