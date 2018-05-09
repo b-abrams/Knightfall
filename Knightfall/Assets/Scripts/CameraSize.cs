@@ -15,7 +15,7 @@ public class CameraSize : MonoBehaviour {
 		if (camera.orthographic) {
 			scale = Screen.height * 1.5f / nativeResolution.height;
 			pixelsToUnits *= scale;
-			camera.orthographicSize = Screen.height / pixelsToUnits;
+			camera.orthographicSize = (Screen.height/ 2f) / pixelsToUnits;
 		}
 
 	}

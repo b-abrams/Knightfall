@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5b4cce3f409c9401484c544f8840c45f
-timeCreated: 1525819676
+guid: 6ccd986fb40f54659a778fa162e58bd8
+timeCreated: 1525825634
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Lava_0
+    21300000: 6_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lava_0
+      name: 6_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 200
-        height: 200
+        width: 1624
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
