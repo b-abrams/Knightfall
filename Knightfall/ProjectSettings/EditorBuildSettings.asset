@@ -4,4 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ALL MENU ASSESTS/Scenes/GameWindows.unity
+    guid: 1b1383c843df5a2429e0c53cd392b539
+  - enabled: 1
+    path: Assets/Scenes/Lava Level.unity
+    guid: 7ae594801fea346eeb3b36a703ea8ee6
+  - enabled: 1
+    path: Assets/Scenes/Water Level.unity
+    guid: ca07f0c2065484ffab69d5478586337e
+  - enabled: 1
+    path: Assets/Scenes/Earth Level.unity
+    guid: 1c9cea3a526c34b62b1f4424e1899acc
+  - enabled: 1
+    path: Assets/Scenes/Cloud Level.unity
+    guid: 9b375f33b888844119e8e9ecfd4d7a4d
