@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 	public Vector2 maxVelocity = new Vector2(200, 250); 	// Maximum velocity of Player
 	public bool slashing = false;
 	public bool thrusting = false;
+	public CircleCollider2D debris;
 	private float maxJumpHeight = 200f;
 	private float yInit = 0f;
 	private bool maxHeightReached = false;
@@ -114,5 +115,8 @@ public class Player : MonoBehaviour {
 		}
 		rbody.AddForce (new Vector2 (forceX, forceY));
 
+		if (collider.IsTouching (debris)) {
+			debris.enabled = false;
+		}
 	}
 }

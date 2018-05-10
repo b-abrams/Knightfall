@@ -2868,6 +2868,12 @@ Prefab:
       propertyPath: outOfBounds
       value: 
       objectReference: {fileID: 1876749175}
+    - target: {fileID: 114382399303105274, guid: 0f38d5de50f3c4fa6b9725667404286c,
+        type: 2}
+      propertyPath: debris
+      value: 
+      objectReference: {fileID: 58701166074318578, guid: 4193589ac68804e45adfa402a7162c34,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f38d5de50f3c4fa6b9725667404286c, type: 2}
   m_IsPrefabParent: 0
@@ -18711,7 +18717,7 @@ GameObject:
   - component: {fileID: 1221879799}
   m_Layer: 0
   m_Name: 2_0
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

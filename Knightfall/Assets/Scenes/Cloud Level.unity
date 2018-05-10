@@ -2014,7 +2014,7 @@ GameObject:
   - component: {fileID: 921334193}
   - component: {fileID: 921334195}
   - component: {fileID: 921334192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: princess_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3888,7 +3888,7 @@ GameObject:
   - component: {fileID: 1589600341}
   m_Layer: 8
   m_Name: 2_0 (37)
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5721,8 +5721,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043231638}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17214, y: 2120.1501, z: 250}
-  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_LocalPosition: {x: 17235.1, y: 2120.1501, z: 250}
+  m_LocalScale: {x: 54.2822, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 1982047079}
   m_RootOrder: 36
@@ -5739,7 +5739,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7596079, y: -0.54233646}
+  m_Offset: {x: 0.20453286, y: -0.54233646}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5750,7 +5750,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.330785, y: 3.1553268}
+  m_Size: {x: 10.259066, y: 3.1553268}
   m_EdgeRadius: 0
 --- !u!212 &2043231641
 SpriteRenderer:
