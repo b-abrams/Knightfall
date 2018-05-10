@@ -9,7 +9,7 @@ public class StartWindow : GenericWindow {
 
     public override void Open()
     {
-        var canContinue = true;
+        var canContinue = false;
 
         continueButton.gameObject.SetActive(canContinue);
         if (continueButton.gameObject.activeSelf)
